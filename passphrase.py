@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-n", metavar="number", help="Number of passphrases to generate", type=int, default=1)
 parser.add_argument("-l", metavar="number", help="Number of words in each passphrase", type=int, default=4)
 parser.add_argument("-s", metavar='"separator"', help="Separator used between each word", default=" ")
-parser.add_argument("-d", metavar="path", help="The path to a custom dictionary", default="dictionaries\google-10000-english-usa-no-swears-medium.txt")
+parser.add_argument("-d", metavar="path", help="The path to a custom dictionary", default="dictionaries/google-10000-english-usa-no-swears-medium.txt")
 parser.add_argument("--script", help="Output only the generated passphrase(s), useful for scripting", action="store_true")
 args = parser.parse_args()
 
