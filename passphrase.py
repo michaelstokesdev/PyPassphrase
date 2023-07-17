@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 import argparse
 from random import choice
 from os.path import isfile
