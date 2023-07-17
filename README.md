@@ -5,7 +5,7 @@ A simple Python script to generate passphrases.
 
 When downloading the script, if you want the default dictionaries provided make sure to use:
 
-```git clone --recursive git@github.com:michaelstokesdev/PyPassphrase.git```
+```git clone --recursive https://github.com/michaelstokesdev/PyPassphrase.git```
 
 Otherwise feel free to add your own dictionaries to the dictionaries directory and use the ```-d```
 argument to use them.
